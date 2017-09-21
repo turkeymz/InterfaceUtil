@@ -1,0 +1,6 @@
+#接口工具类，java简化版
+开发步骤：
+  1.复制代码（简化过，可在自行假如日志，异常处理，或自定义通讯协议、报文格式）
+  2.开发业务逻辑类（只接受一个String类型的报文格式，需在逻辑类进行解析）
+  3.在serviceMethod.xml进行配置
+  4.访问接口，测试地址：	http://localhost:8080/InterfaceUtil/WebController?TransMessage={"type":"helloWorld","data":{"name":"zs","sex":"boy"}}
