@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<serviceMethod>
+<!--
+ 	<method type = "json发送类型" class = "逻辑方法类" method = "方法名" label="备注"/>
+ -->
+	<method type = "helloWorld" class = "com.turkeymz.service.helloworldService" method = "helloworld" label="样例代码"/>
+
+</serviceMethod>
